@@ -1,11 +1,11 @@
 print("I will now count my chickens:")
 
-print("Hens", 25 + 30 / 6)
-print("Roosters", 100 - 25 * 3 % 4)
+print("Hens", 25.0 + 30.0 / 6.0)
+print("Roosters", 100.0 - 25.0 * 3.0 % 4.0)
 
 print("Now I will count the eggs:")
 
-print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
+print(3.00 + 2.00 + 1.00 - 5.00 + 4.00 % 2.00 - 1.00 / 4.00 + 6.00)
 
 print("Is it true that 3 + 2 < 5 - 7?")
 
@@ -21,3 +21,7 @@ print("How about some more.")
 print("Is it greater?", 5 > -2)
 print("Is it greater or equal?", 5 >= -2)
 print("Is it less than or equal?", 5 <= -2)
+
+## Calculate the area of a circle with a radius of 6 inches
+print("The area of a 6 inch circle is:")
+print(3.14259 * 6 * 6)
